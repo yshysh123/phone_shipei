@@ -19,3 +19,8 @@
     doc.addEventListener('DOMContentLoaded', recalc, false);
 })(document, window);
 ```
+
+
+ docEl.style.fontSize = 45 * (clientWidth / 750) + 'px';
+ 
+ 里面的45是根据设计图尺寸来的，一般给50就是750的设计图
